@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Mar 05 00:28:51 2019
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : baud_rate_converter
+Top-level Entity Name : baud_rate_converter
+Family : Cyclone II
+Total logic elements : 101
+    Total combinational functions : 101
+    Dedicated logic registers : 58
+Total registers : 58
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

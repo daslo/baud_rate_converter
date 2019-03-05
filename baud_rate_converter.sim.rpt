@@ -1,0 +1,784 @@
+Simulator report for baud_rate_converter
+Mon Mar 04 23:47:42 2019
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 2.0 ms       ;
+; Simulation Netlist Size     ; 489 nodes    ;
+; Simulation Coverage         ;      72.39 % ;
+; Total Number of Transitions ; 1950014      ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                   ;
++--------------------------------------------------------------------------------------------+-------------------------+---------------+
+; Option                                                                                     ; Setting                 ; Default Value ;
++--------------------------------------------------------------------------------------------+-------------------------+---------------+
+; Simulation mode                                                                            ; Functional              ; Timing        ;
+; Start time                                                                                 ; 0 ns                    ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF                    ;               ;
+; Vector input source                                                                        ; baud_rate_converter.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                      ; On            ;
+; Check outputs                                                                              ; Off                     ; Off           ;
+; Report simulation coverage                                                                 ; On                      ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                      ; On            ;
+; Display missing 1-value coverage report                                                    ; On                      ; On            ;
+; Display missing 0-value coverage report                                                    ; On                      ; On            ;
+; Detect setup and hold time violations                                                      ; Off                     ; Off           ;
+; Detect glitches                                                                            ; Off                     ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                     ; Off           ;
+; Generate Signal Activity File                                                              ; Off                     ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                     ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                     ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                      ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE              ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                     ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                     ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                    ; Auto          ;
++--------------------------------------------------------------------------------------------+-------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      72.39 % ;
+; Total nodes checked                                 ; 489          ;
+; Total output ports checked                          ; 489          ;
+; Total output ports with complete 1/0-value coverage ; 354          ;
+; Total output ports with no 1/0-value coverage       ; 134          ;
+; Total output ports with no 1-value coverage         ; 135          ;
+; Total output ports with no 0-value coverage         ; 134          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                      ;
++---------------------------------------+---------------------------------------+------------------+
+; Node Name                             ; Output Port Name                      ; Output Port Type ;
++---------------------------------------+---------------------------------------+------------------+
+; |baud_rate_converter|process_0~0      ; |baud_rate_converter|process_0~0      ; out0             ;
+; |baud_rate_converter|Tcnt_in~3        ; |baud_rate_converter|Tcnt_in~3        ; out              ;
+; |baud_rate_converter|Tcnt_in~4        ; |baud_rate_converter|Tcnt_in~4        ; out              ;
+; |baud_rate_converter|Tcnt_in~5        ; |baud_rate_converter|Tcnt_in~5        ; out              ;
+; |baud_rate_converter|Tcnt_in~6        ; |baud_rate_converter|Tcnt_in~6        ; out              ;
+; |baud_rate_converter|Tcnt_in~7        ; |baud_rate_converter|Tcnt_in~7        ; out              ;
+; |baud_rate_converter|Tcnt_in~8        ; |baud_rate_converter|Tcnt_in~8        ; out              ;
+; |baud_rate_converter|Tcnt_in~9        ; |baud_rate_converter|Tcnt_in~9        ; out              ;
+; |baud_rate_converter|Tcnt_in~10       ; |baud_rate_converter|Tcnt_in~10       ; out              ;
+; |baud_rate_converter|Tcnt_in~11       ; |baud_rate_converter|Tcnt_in~11       ; out              ;
+; |baud_rate_converter|Tcnt_in~12       ; |baud_rate_converter|Tcnt_in~12       ; out              ;
+; |baud_rate_converter|Tcnt_in~13       ; |baud_rate_converter|Tcnt_in~13       ; out              ;
+; |baud_rate_converter|Tcnt_in~14       ; |baud_rate_converter|Tcnt_in~14       ; out              ;
+; |baud_rate_converter|Tcnt_in~15       ; |baud_rate_converter|Tcnt_in~15       ; out              ;
+; |baud_rate_converter|Tcnt_out~7       ; |baud_rate_converter|Tcnt_out~7       ; out              ;
+; |baud_rate_converter|Tcnt_out~8       ; |baud_rate_converter|Tcnt_out~8       ; out              ;
+; |baud_rate_converter|Tcnt_out~9       ; |baud_rate_converter|Tcnt_out~9       ; out              ;
+; |baud_rate_converter|Tcnt_out~10      ; |baud_rate_converter|Tcnt_out~10      ; out              ;
+; |baud_rate_converter|Tcnt_out~11      ; |baud_rate_converter|Tcnt_out~11      ; out              ;
+; |baud_rate_converter|Tcnt_out~12      ; |baud_rate_converter|Tcnt_out~12      ; out              ;
+; |baud_rate_converter|Tcnt_out~13      ; |baud_rate_converter|Tcnt_out~13      ; out              ;
+; |baud_rate_converter|Tcnt_out~14      ; |baud_rate_converter|Tcnt_out~14      ; out              ;
+; |baud_rate_converter|Tcnt_out~15      ; |baud_rate_converter|Tcnt_out~15      ; out              ;
+; |baud_rate_converter|Bcnt_in~0        ; |baud_rate_converter|Bcnt_in~0        ; out              ;
+; |baud_rate_converter|Bcnt_in~1        ; |baud_rate_converter|Bcnt_in~1        ; out              ;
+; |baud_rate_converter|Bcnt_in~2        ; |baud_rate_converter|Bcnt_in~2        ; out              ;
+; |baud_rate_converter|Bcnt_in~3        ; |baud_rate_converter|Bcnt_in~3        ; out              ;
+; |baud_rate_converter|Bcnt_out~0       ; |baud_rate_converter|Bcnt_out~0       ; out              ;
+; |baud_rate_converter|Bcnt_out~1       ; |baud_rate_converter|Bcnt_out~1       ; out              ;
+; |baud_rate_converter|Bcnt_out~2       ; |baud_rate_converter|Bcnt_out~2       ; out              ;
+; |baud_rate_converter|Bcnt_out~3       ; |baud_rate_converter|Bcnt_out~3       ; out              ;
+; |baud_rate_converter|rx_buf~0         ; |baud_rate_converter|rx_buf~0         ; out              ;
+; |baud_rate_converter|rx_buf~1         ; |baud_rate_converter|rx_buf~1         ; out              ;
+; |baud_rate_converter|rx_buf~2         ; |baud_rate_converter|rx_buf~2         ; out              ;
+; |baud_rate_converter|rx_buf~3         ; |baud_rate_converter|rx_buf~3         ; out              ;
+; |baud_rate_converter|rx_buf~4         ; |baud_rate_converter|rx_buf~4         ; out              ;
+; |baud_rate_converter|rx_buf~5         ; |baud_rate_converter|rx_buf~5         ; out              ;
+; |baud_rate_converter|rx_buf~6         ; |baud_rate_converter|rx_buf~6         ; out              ;
+; |baud_rate_converter|rx_buf~7         ; |baud_rate_converter|rx_buf~7         ; out              ;
+; |baud_rate_converter|rx_buf~8         ; |baud_rate_converter|rx_buf~8         ; out              ;
+; |baud_rate_converter|rx_buf~9         ; |baud_rate_converter|rx_buf~9         ; out              ;
+; |baud_rate_converter|state~0          ; |baud_rate_converter|state~0          ; out              ;
+; |baud_rate_converter|state~1          ; |baud_rate_converter|state~1          ; out              ;
+; |baud_rate_converter|state~2          ; |baud_rate_converter|state~2          ; out              ;
+; |baud_rate_converter|state~4          ; |baud_rate_converter|state~4          ; out              ;
+; |baud_rate_converter|Tcnt_in~19       ; |baud_rate_converter|Tcnt_in~19       ; out              ;
+; |baud_rate_converter|Tcnt_in~20       ; |baud_rate_converter|Tcnt_in~20       ; out              ;
+; |baud_rate_converter|Tcnt_in~21       ; |baud_rate_converter|Tcnt_in~21       ; out              ;
+; |baud_rate_converter|Tcnt_in~22       ; |baud_rate_converter|Tcnt_in~22       ; out              ;
+; |baud_rate_converter|Tcnt_in~23       ; |baud_rate_converter|Tcnt_in~23       ; out              ;
+; |baud_rate_converter|Tcnt_in~24       ; |baud_rate_converter|Tcnt_in~24       ; out              ;
+; |baud_rate_converter|Tcnt_in~25       ; |baud_rate_converter|Tcnt_in~25       ; out              ;
+; |baud_rate_converter|Tcnt_in~26       ; |baud_rate_converter|Tcnt_in~26       ; out              ;
+; |baud_rate_converter|Tcnt_in~27       ; |baud_rate_converter|Tcnt_in~27       ; out              ;
+; |baud_rate_converter|Tcnt_in~28       ; |baud_rate_converter|Tcnt_in~28       ; out              ;
+; |baud_rate_converter|Tcnt_in~29       ; |baud_rate_converter|Tcnt_in~29       ; out              ;
+; |baud_rate_converter|Tcnt_in~30       ; |baud_rate_converter|Tcnt_in~30       ; out              ;
+; |baud_rate_converter|Tcnt_in~31       ; |baud_rate_converter|Tcnt_in~31       ; out              ;
+; |baud_rate_converter|state~5          ; |baud_rate_converter|state~5          ; out              ;
+; |baud_rate_converter|state~6          ; |baud_rate_converter|state~6          ; out              ;
+; |baud_rate_converter|state~7          ; |baud_rate_converter|state~7          ; out              ;
+; |baud_rate_converter|state~9          ; |baud_rate_converter|state~9          ; out              ;
+; |baud_rate_converter|Tcnt_in~35       ; |baud_rate_converter|Tcnt_in~35       ; out              ;
+; |baud_rate_converter|Tcnt_in~36       ; |baud_rate_converter|Tcnt_in~36       ; out              ;
+; |baud_rate_converter|Tcnt_in~37       ; |baud_rate_converter|Tcnt_in~37       ; out              ;
+; |baud_rate_converter|Tcnt_in~38       ; |baud_rate_converter|Tcnt_in~38       ; out              ;
+; |baud_rate_converter|Tcnt_in~39       ; |baud_rate_converter|Tcnt_in~39       ; out              ;
+; |baud_rate_converter|Tcnt_in~40       ; |baud_rate_converter|Tcnt_in~40       ; out              ;
+; |baud_rate_converter|Tcnt_in~41       ; |baud_rate_converter|Tcnt_in~41       ; out              ;
+; |baud_rate_converter|Tcnt_in~42       ; |baud_rate_converter|Tcnt_in~42       ; out              ;
+; |baud_rate_converter|Tcnt_in~43       ; |baud_rate_converter|Tcnt_in~43       ; out              ;
+; |baud_rate_converter|Tcnt_in~44       ; |baud_rate_converter|Tcnt_in~44       ; out              ;
+; |baud_rate_converter|Tcnt_in~45       ; |baud_rate_converter|Tcnt_in~45       ; out              ;
+; |baud_rate_converter|Tcnt_in~46       ; |baud_rate_converter|Tcnt_in~46       ; out              ;
+; |baud_rate_converter|Tcnt_in~47       ; |baud_rate_converter|Tcnt_in~47       ; out              ;
+; |baud_rate_converter|Bcnt_in~4        ; |baud_rate_converter|Bcnt_in~4        ; out              ;
+; |baud_rate_converter|Bcnt_in~5        ; |baud_rate_converter|Bcnt_in~5        ; out              ;
+; |baud_rate_converter|Bcnt_in~6        ; |baud_rate_converter|Bcnt_in~6        ; out              ;
+; |baud_rate_converter|Bcnt_in~7        ; |baud_rate_converter|Bcnt_in~7        ; out              ;
+; |baud_rate_converter|rx_buf~10        ; |baud_rate_converter|rx_buf~10        ; out              ;
+; |baud_rate_converter|rx_buf~11        ; |baud_rate_converter|rx_buf~11        ; out              ;
+; |baud_rate_converter|rx_buf~12        ; |baud_rate_converter|rx_buf~12        ; out              ;
+; |baud_rate_converter|rx_buf~13        ; |baud_rate_converter|rx_buf~13        ; out              ;
+; |baud_rate_converter|rx_buf~14        ; |baud_rate_converter|rx_buf~14        ; out              ;
+; |baud_rate_converter|rx_buf~15        ; |baud_rate_converter|rx_buf~15        ; out              ;
+; |baud_rate_converter|rx_buf~16        ; |baud_rate_converter|rx_buf~16        ; out              ;
+; |baud_rate_converter|rx_buf~17        ; |baud_rate_converter|rx_buf~17        ; out              ;
+; |baud_rate_converter|rx_buf~18        ; |baud_rate_converter|rx_buf~18        ; out              ;
+; |baud_rate_converter|rx_buf~19        ; |baud_rate_converter|rx_buf~19        ; out              ;
+; |baud_rate_converter|state~11         ; |baud_rate_converter|state~11         ; out              ;
+; |baud_rate_converter|state~12         ; |baud_rate_converter|state~12         ; out              ;
+; |baud_rate_converter|state~14         ; |baud_rate_converter|state~14         ; out              ;
+; |baud_rate_converter|Tcnt_out~23      ; |baud_rate_converter|Tcnt_out~23      ; out              ;
+; |baud_rate_converter|Tcnt_out~24      ; |baud_rate_converter|Tcnt_out~24      ; out              ;
+; |baud_rate_converter|Tcnt_out~25      ; |baud_rate_converter|Tcnt_out~25      ; out              ;
+; |baud_rate_converter|Tcnt_out~26      ; |baud_rate_converter|Tcnt_out~26      ; out              ;
+; |baud_rate_converter|Tcnt_out~27      ; |baud_rate_converter|Tcnt_out~27      ; out              ;
+; |baud_rate_converter|Tcnt_out~28      ; |baud_rate_converter|Tcnt_out~28      ; out              ;
+; |baud_rate_converter|Tcnt_out~29      ; |baud_rate_converter|Tcnt_out~29      ; out              ;
+; |baud_rate_converter|Tcnt_out~30      ; |baud_rate_converter|Tcnt_out~30      ; out              ;
+; |baud_rate_converter|Tcnt_out~31      ; |baud_rate_converter|Tcnt_out~31      ; out              ;
+; |baud_rate_converter|Bcnt_out~4       ; |baud_rate_converter|Bcnt_out~4       ; out              ;
+; |baud_rate_converter|Bcnt_out~5       ; |baud_rate_converter|Bcnt_out~5       ; out              ;
+; |baud_rate_converter|Bcnt_out~6       ; |baud_rate_converter|Bcnt_out~6       ; out              ;
+; |baud_rate_converter|Bcnt_out~7       ; |baud_rate_converter|Bcnt_out~7       ; out              ;
+; |baud_rate_converter|tx_now~0         ; |baud_rate_converter|tx_now~0         ; out              ;
+; |baud_rate_converter|rx_buf~20        ; |baud_rate_converter|rx_buf~20        ; out              ;
+; |baud_rate_converter|rx_buf~21        ; |baud_rate_converter|rx_buf~21        ; out              ;
+; |baud_rate_converter|rx_buf~22        ; |baud_rate_converter|rx_buf~22        ; out              ;
+; |baud_rate_converter|rx_buf~23        ; |baud_rate_converter|rx_buf~23        ; out              ;
+; |baud_rate_converter|rx_buf~24        ; |baud_rate_converter|rx_buf~24        ; out              ;
+; |baud_rate_converter|rx_buf~25        ; |baud_rate_converter|rx_buf~25        ; out              ;
+; |baud_rate_converter|rx_buf~26        ; |baud_rate_converter|rx_buf~26        ; out              ;
+; |baud_rate_converter|rx_buf~27        ; |baud_rate_converter|rx_buf~27        ; out              ;
+; |baud_rate_converter|rx_buf~28        ; |baud_rate_converter|rx_buf~28        ; out              ;
+; |baud_rate_converter|state.state_w    ; |baud_rate_converter|state.state_w    ; regout           ;
+; |baud_rate_converter|state~15         ; |baud_rate_converter|state~15         ; out              ;
+; |baud_rate_converter|state~16         ; |baud_rate_converter|state~16         ; out              ;
+; |baud_rate_converter|state~17         ; |baud_rate_converter|state~17         ; out              ;
+; |baud_rate_converter|state~19         ; |baud_rate_converter|state~19         ; out              ;
+; |baud_rate_converter|idle~0           ; |baud_rate_converter|idle~0           ; out              ;
+; |baud_rate_converter|tx_now           ; |baud_rate_converter|tx_now           ; regout           ;
+; |baud_rate_converter|Tcnt_in~48       ; |baud_rate_converter|Tcnt_in~48       ; out0             ;
+; |baud_rate_converter|rx_buf~29        ; |baud_rate_converter|rx_buf~29        ; out0             ;
+; |baud_rate_converter|state.state_r    ; |baud_rate_converter|state.state_r    ; regout           ;
+; |baud_rate_converter|state.state_dly  ; |baud_rate_converter|state.state_dly  ; regout           ;
+; |baud_rate_converter|state.state_idle ; |baud_rate_converter|state.state_idle ; regout           ;
+; |baud_rate_converter|rx_buf[0]        ; |baud_rate_converter|rx_buf[0]        ; regout           ;
+; |baud_rate_converter|rx_buf[1]        ; |baud_rate_converter|rx_buf[1]        ; regout           ;
+; |baud_rate_converter|rx_buf[2]        ; |baud_rate_converter|rx_buf[2]        ; regout           ;
+; |baud_rate_converter|rx_buf[3]        ; |baud_rate_converter|rx_buf[3]        ; regout           ;
+; |baud_rate_converter|rx_buf[4]        ; |baud_rate_converter|rx_buf[4]        ; regout           ;
+; |baud_rate_converter|rx_buf[5]        ; |baud_rate_converter|rx_buf[5]        ; regout           ;
+; |baud_rate_converter|rx_buf[6]        ; |baud_rate_converter|rx_buf[6]        ; regout           ;
+; |baud_rate_converter|rx_buf[7]        ; |baud_rate_converter|rx_buf[7]        ; regout           ;
+; |baud_rate_converter|rx_buf[8]        ; |baud_rate_converter|rx_buf[8]        ; regout           ;
+; |baud_rate_converter|rx_buf[9]        ; |baud_rate_converter|rx_buf[9]        ; regout           ;
+; |baud_rate_converter|Bcnt_out[0]      ; |baud_rate_converter|Bcnt_out[0]      ; regout           ;
+; |baud_rate_converter|Bcnt_out[1]      ; |baud_rate_converter|Bcnt_out[1]      ; regout           ;
+; |baud_rate_converter|Bcnt_out[2]      ; |baud_rate_converter|Bcnt_out[2]      ; regout           ;
+; |baud_rate_converter|Bcnt_out[3]      ; |baud_rate_converter|Bcnt_out[3]      ; regout           ;
+; |baud_rate_converter|Bcnt_in[0]       ; |baud_rate_converter|Bcnt_in[0]       ; regout           ;
+; |baud_rate_converter|Bcnt_in[1]       ; |baud_rate_converter|Bcnt_in[1]       ; regout           ;
+; |baud_rate_converter|Bcnt_in[2]       ; |baud_rate_converter|Bcnt_in[2]       ; regout           ;
+; |baud_rate_converter|Bcnt_in[3]       ; |baud_rate_converter|Bcnt_in[3]       ; regout           ;
+; |baud_rate_converter|Tcnt_out[0]      ; |baud_rate_converter|Tcnt_out[0]      ; regout           ;
+; |baud_rate_converter|Tcnt_out[1]      ; |baud_rate_converter|Tcnt_out[1]      ; regout           ;
+; |baud_rate_converter|Tcnt_out[2]      ; |baud_rate_converter|Tcnt_out[2]      ; regout           ;
+; |baud_rate_converter|Tcnt_out[3]      ; |baud_rate_converter|Tcnt_out[3]      ; regout           ;
+; |baud_rate_converter|Tcnt_out[4]      ; |baud_rate_converter|Tcnt_out[4]      ; regout           ;
+; |baud_rate_converter|Tcnt_out[5]      ; |baud_rate_converter|Tcnt_out[5]      ; regout           ;
+; |baud_rate_converter|Tcnt_out[6]      ; |baud_rate_converter|Tcnt_out[6]      ; regout           ;
+; |baud_rate_converter|Tcnt_out[7]      ; |baud_rate_converter|Tcnt_out[7]      ; regout           ;
+; |baud_rate_converter|Tcnt_out[8]      ; |baud_rate_converter|Tcnt_out[8]      ; regout           ;
+; |baud_rate_converter|Tcnt_in[0]       ; |baud_rate_converter|Tcnt_in[0]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[1]       ; |baud_rate_converter|Tcnt_in[1]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[2]       ; |baud_rate_converter|Tcnt_in[2]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[3]       ; |baud_rate_converter|Tcnt_in[3]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[4]       ; |baud_rate_converter|Tcnt_in[4]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[5]       ; |baud_rate_converter|Tcnt_in[5]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[6]       ; |baud_rate_converter|Tcnt_in[6]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[7]       ; |baud_rate_converter|Tcnt_in[7]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[8]       ; |baud_rate_converter|Tcnt_in[8]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[9]       ; |baud_rate_converter|Tcnt_in[9]       ; regout           ;
+; |baud_rate_converter|Tcnt_in[10]      ; |baud_rate_converter|Tcnt_in[10]      ; regout           ;
+; |baud_rate_converter|Tcnt_in[11]      ; |baud_rate_converter|Tcnt_in[11]      ; regout           ;
+; |baud_rate_converter|Tcnt_in[12]      ; |baud_rate_converter|Tcnt_in[12]      ; regout           ;
+; |baud_rate_converter|rx_now           ; |baud_rate_converter|rx_now           ; regout           ;
+; |baud_rate_converter|rx_old           ; |baud_rate_converter|rx_old           ; regout           ;
+; |baud_rate_converter|idle             ; |baud_rate_converter|idle             ; regout           ;
+; |baud_rate_converter|CLK              ; |baud_rate_converter|CLK              ; out              ;
+; |baud_rate_converter|RX               ; |baud_rate_converter|RX               ; out              ;
+; |baud_rate_converter|TX               ; |baud_rate_converter|TX               ; pin_out          ;
+; |baud_rate_converter|LED1             ; |baud_rate_converter|LED1             ; pin_out          ;
+; |baud_rate_converter|state~20         ; |baud_rate_converter|state~20         ; out0             ;
+; |baud_rate_converter|Selector0~3      ; |baud_rate_converter|Selector0~3      ; out              ;
+; |baud_rate_converter|Selector0~4      ; |baud_rate_converter|Selector0~4      ; out              ;
+; |baud_rate_converter|Selector4~5      ; |baud_rate_converter|Selector4~5      ; out0             ;
+; |baud_rate_converter|Selector4~7      ; |baud_rate_converter|Selector4~7      ; out0             ;
+; |baud_rate_converter|Selector4~8      ; |baud_rate_converter|Selector4~8      ; out0             ;
+; |baud_rate_converter|Selector5~5      ; |baud_rate_converter|Selector5~5      ; out0             ;
+; |baud_rate_converter|Selector5~7      ; |baud_rate_converter|Selector5~7      ; out0             ;
+; |baud_rate_converter|Selector6~5      ; |baud_rate_converter|Selector6~5      ; out0             ;
+; |baud_rate_converter|Selector6~7      ; |baud_rate_converter|Selector6~7      ; out0             ;
+; |baud_rate_converter|Selector6~8      ; |baud_rate_converter|Selector6~8      ; out0             ;
+; |baud_rate_converter|Selector7~5      ; |baud_rate_converter|Selector7~5      ; out0             ;
+; |baud_rate_converter|Selector7~7      ; |baud_rate_converter|Selector7~7      ; out0             ;
+; |baud_rate_converter|Selector8~5      ; |baud_rate_converter|Selector8~5      ; out0             ;
+; |baud_rate_converter|Selector8~7      ; |baud_rate_converter|Selector8~7      ; out0             ;
+; |baud_rate_converter|Selector9~5      ; |baud_rate_converter|Selector9~5      ; out0             ;
+; |baud_rate_converter|Selector9~7      ; |baud_rate_converter|Selector9~7      ; out0             ;
+; |baud_rate_converter|Selector10~5     ; |baud_rate_converter|Selector10~5     ; out0             ;
+; |baud_rate_converter|Selector10~7     ; |baud_rate_converter|Selector10~7     ; out0             ;
+; |baud_rate_converter|Selector10~8     ; |baud_rate_converter|Selector10~8     ; out0             ;
+; |baud_rate_converter|Selector11~5     ; |baud_rate_converter|Selector11~5     ; out0             ;
+; |baud_rate_converter|Selector11~7     ; |baud_rate_converter|Selector11~7     ; out0             ;
+; |baud_rate_converter|Selector11~8     ; |baud_rate_converter|Selector11~8     ; out0             ;
+; |baud_rate_converter|Selector12~5     ; |baud_rate_converter|Selector12~5     ; out0             ;
+; |baud_rate_converter|Selector12~7     ; |baud_rate_converter|Selector12~7     ; out0             ;
+; |baud_rate_converter|Selector12~8     ; |baud_rate_converter|Selector12~8     ; out0             ;
+; |baud_rate_converter|Selector13~5     ; |baud_rate_converter|Selector13~5     ; out0             ;
+; |baud_rate_converter|Selector13~7     ; |baud_rate_converter|Selector13~7     ; out0             ;
+; |baud_rate_converter|Selector13~8     ; |baud_rate_converter|Selector13~8     ; out0             ;
+; |baud_rate_converter|Selector14~5     ; |baud_rate_converter|Selector14~5     ; out0             ;
+; |baud_rate_converter|Selector14~7     ; |baud_rate_converter|Selector14~7     ; out0             ;
+; |baud_rate_converter|Selector14~8     ; |baud_rate_converter|Selector14~8     ; out0             ;
+; |baud_rate_converter|Selector15~5     ; |baud_rate_converter|Selector15~5     ; out0             ;
+; |baud_rate_converter|Selector15~7     ; |baud_rate_converter|Selector15~7     ; out0             ;
+; |baud_rate_converter|Selector15~8     ; |baud_rate_converter|Selector15~8     ; out0             ;
+; |baud_rate_converter|Selector16~5     ; |baud_rate_converter|Selector16~5     ; out0             ;
+; |baud_rate_converter|Selector16~6     ; |baud_rate_converter|Selector16~6     ; out0             ;
+; |baud_rate_converter|Selector16~7     ; |baud_rate_converter|Selector16~7     ; out0             ;
+; |baud_rate_converter|Selector16~8     ; |baud_rate_converter|Selector16~8     ; out0             ;
+; |baud_rate_converter|Selector16~9     ; |baud_rate_converter|Selector16~9     ; out0             ;
+; |baud_rate_converter|Selector24~3     ; |baud_rate_converter|Selector24~3     ; out              ;
+; |baud_rate_converter|Selector24~4     ; |baud_rate_converter|Selector24~4     ; out              ;
+; |baud_rate_converter|Selector25~3     ; |baud_rate_converter|Selector25~3     ; out              ;
+; |baud_rate_converter|Selector25~4     ; |baud_rate_converter|Selector25~4     ; out              ;
+; |baud_rate_converter|Selector26~3     ; |baud_rate_converter|Selector26~3     ; out              ;
+; |baud_rate_converter|Selector26~4     ; |baud_rate_converter|Selector26~4     ; out              ;
+; |baud_rate_converter|Selector27~3     ; |baud_rate_converter|Selector27~3     ; out              ;
+; |baud_rate_converter|Selector27~4     ; |baud_rate_converter|Selector27~4     ; out              ;
+; |baud_rate_converter|Selector28~3     ; |baud_rate_converter|Selector28~3     ; out              ;
+; |baud_rate_converter|Selector28~4     ; |baud_rate_converter|Selector28~4     ; out              ;
+; |baud_rate_converter|Selector29~3     ; |baud_rate_converter|Selector29~3     ; out              ;
+; |baud_rate_converter|Selector29~4     ; |baud_rate_converter|Selector29~4     ; out              ;
+; |baud_rate_converter|Selector30~3     ; |baud_rate_converter|Selector30~3     ; out              ;
+; |baud_rate_converter|Selector30~4     ; |baud_rate_converter|Selector30~4     ; out              ;
+; |baud_rate_converter|Selector31~3     ; |baud_rate_converter|Selector31~3     ; out              ;
+; |baud_rate_converter|Selector31~4     ; |baud_rate_converter|Selector31~4     ; out              ;
+; |baud_rate_converter|Selector32~3     ; |baud_rate_converter|Selector32~3     ; out              ;
+; |baud_rate_converter|Selector32~4     ; |baud_rate_converter|Selector32~4     ; out              ;
+; |baud_rate_converter|Selector33~3     ; |baud_rate_converter|Selector33~3     ; out              ;
+; |baud_rate_converter|Selector33~4     ; |baud_rate_converter|Selector33~4     ; out              ;
+; |baud_rate_converter|Selector34~3     ; |baud_rate_converter|Selector34~3     ; out              ;
+; |baud_rate_converter|Selector34~4     ; |baud_rate_converter|Selector34~4     ; out              ;
+; |baud_rate_converter|Selector35~3     ; |baud_rate_converter|Selector35~3     ; out              ;
+; |baud_rate_converter|Selector35~4     ; |baud_rate_converter|Selector35~4     ; out              ;
+; |baud_rate_converter|Selector36~3     ; |baud_rate_converter|Selector36~3     ; out              ;
+; |baud_rate_converter|Selector36~4     ; |baud_rate_converter|Selector36~4     ; out              ;
+; |baud_rate_converter|Selector37~3     ; |baud_rate_converter|Selector37~3     ; out              ;
+; |baud_rate_converter|Selector37~4     ; |baud_rate_converter|Selector37~4     ; out              ;
+; |baud_rate_converter|Selector38~3     ; |baud_rate_converter|Selector38~3     ; out              ;
+; |baud_rate_converter|Selector38~4     ; |baud_rate_converter|Selector38~4     ; out              ;
+; |baud_rate_converter|Selector39~3     ; |baud_rate_converter|Selector39~3     ; out              ;
+; |baud_rate_converter|Selector39~4     ; |baud_rate_converter|Selector39~4     ; out              ;
+; |baud_rate_converter|Selector40~3     ; |baud_rate_converter|Selector40~3     ; out              ;
+; |baud_rate_converter|Selector40~4     ; |baud_rate_converter|Selector40~4     ; out              ;
+; |baud_rate_converter|Selector41~5     ; |baud_rate_converter|Selector41~5     ; out0             ;
+; |baud_rate_converter|Selector41~6     ; |baud_rate_converter|Selector41~6     ; out0             ;
+; |baud_rate_converter|Selector41~7     ; |baud_rate_converter|Selector41~7     ; out0             ;
+; |baud_rate_converter|Selector41~9     ; |baud_rate_converter|Selector41~9     ; out0             ;
+; |baud_rate_converter|Selector42~5     ; |baud_rate_converter|Selector42~5     ; out0             ;
+; |baud_rate_converter|Selector42~6     ; |baud_rate_converter|Selector42~6     ; out0             ;
+; |baud_rate_converter|Selector42~7     ; |baud_rate_converter|Selector42~7     ; out0             ;
+; |baud_rate_converter|Selector42~9     ; |baud_rate_converter|Selector42~9     ; out0             ;
+; |baud_rate_converter|Selector43~5     ; |baud_rate_converter|Selector43~5     ; out0             ;
+; |baud_rate_converter|Selector43~6     ; |baud_rate_converter|Selector43~6     ; out0             ;
+; |baud_rate_converter|Selector43~7     ; |baud_rate_converter|Selector43~7     ; out0             ;
+; |baud_rate_converter|Selector43~9     ; |baud_rate_converter|Selector43~9     ; out0             ;
+; |baud_rate_converter|Selector44~5     ; |baud_rate_converter|Selector44~5     ; out0             ;
+; |baud_rate_converter|Selector44~6     ; |baud_rate_converter|Selector44~6     ; out0             ;
+; |baud_rate_converter|Selector44~7     ; |baud_rate_converter|Selector44~7     ; out0             ;
+; |baud_rate_converter|Selector44~9     ; |baud_rate_converter|Selector44~9     ; out0             ;
+; |baud_rate_converter|Selector45~5     ; |baud_rate_converter|Selector45~5     ; out0             ;
+; |baud_rate_converter|Selector45~6     ; |baud_rate_converter|Selector45~6     ; out0             ;
+; |baud_rate_converter|Selector45~7     ; |baud_rate_converter|Selector45~7     ; out0             ;
+; |baud_rate_converter|Selector45~9     ; |baud_rate_converter|Selector45~9     ; out0             ;
+; |baud_rate_converter|Selector46~5     ; |baud_rate_converter|Selector46~5     ; out0             ;
+; |baud_rate_converter|Selector46~6     ; |baud_rate_converter|Selector46~6     ; out0             ;
+; |baud_rate_converter|Selector46~7     ; |baud_rate_converter|Selector46~7     ; out0             ;
+; |baud_rate_converter|Selector46~9     ; |baud_rate_converter|Selector46~9     ; out0             ;
+; |baud_rate_converter|Selector47~5     ; |baud_rate_converter|Selector47~5     ; out0             ;
+; |baud_rate_converter|Selector47~6     ; |baud_rate_converter|Selector47~6     ; out0             ;
+; |baud_rate_converter|Selector47~7     ; |baud_rate_converter|Selector47~7     ; out0             ;
+; |baud_rate_converter|Selector47~9     ; |baud_rate_converter|Selector47~9     ; out0             ;
+; |baud_rate_converter|Selector48~5     ; |baud_rate_converter|Selector48~5     ; out0             ;
+; |baud_rate_converter|Selector48~6     ; |baud_rate_converter|Selector48~6     ; out0             ;
+; |baud_rate_converter|Selector48~7     ; |baud_rate_converter|Selector48~7     ; out0             ;
+; |baud_rate_converter|Selector48~9     ; |baud_rate_converter|Selector48~9     ; out0             ;
+; |baud_rate_converter|Selector49~5     ; |baud_rate_converter|Selector49~5     ; out0             ;
+; |baud_rate_converter|Selector49~6     ; |baud_rate_converter|Selector49~6     ; out0             ;
+; |baud_rate_converter|Selector49~7     ; |baud_rate_converter|Selector49~7     ; out0             ;
+; |baud_rate_converter|Selector49~9     ; |baud_rate_converter|Selector49~9     ; out0             ;
+; |baud_rate_converter|Selector50~3     ; |baud_rate_converter|Selector50~3     ; out              ;
+; |baud_rate_converter|Selector50~4     ; |baud_rate_converter|Selector50~4     ; out              ;
+; |baud_rate_converter|Selector51~6     ; |baud_rate_converter|Selector51~6     ; out0             ;
+; |baud_rate_converter|Selector51~7     ; |baud_rate_converter|Selector51~7     ; out0             ;
+; |baud_rate_converter|Selector51~8     ; |baud_rate_converter|Selector51~8     ; out0             ;
+; |baud_rate_converter|Selector51~9     ; |baud_rate_converter|Selector51~9     ; out0             ;
+; |baud_rate_converter|Selector51~10    ; |baud_rate_converter|Selector51~10    ; out0             ;
+; |baud_rate_converter|Selector52~6     ; |baud_rate_converter|Selector52~6     ; out0             ;
+; |baud_rate_converter|Selector52~9     ; |baud_rate_converter|Selector52~9     ; out0             ;
+; |baud_rate_converter|Selector52~10    ; |baud_rate_converter|Selector52~10    ; out0             ;
+; |baud_rate_converter|Selector53~6     ; |baud_rate_converter|Selector53~6     ; out0             ;
+; |baud_rate_converter|Selector53~8     ; |baud_rate_converter|Selector53~8     ; out0             ;
+; |baud_rate_converter|Selector53~9     ; |baud_rate_converter|Selector53~9     ; out0             ;
+; |baud_rate_converter|Selector55~6     ; |baud_rate_converter|Selector55~6     ; out0             ;
+; |baud_rate_converter|Selector55~7     ; |baud_rate_converter|Selector55~7     ; out0             ;
+; |baud_rate_converter|Selector55~8     ; |baud_rate_converter|Selector55~8     ; out0             ;
+; |baud_rate_converter|Selector55~10    ; |baud_rate_converter|Selector55~10    ; out0             ;
+; |baud_rate_converter|Add0~80          ; |baud_rate_converter|Add0~80          ; out0             ;
+; |baud_rate_converter|Add0~81          ; |baud_rate_converter|Add0~81          ; out0             ;
+; |baud_rate_converter|Add0~82          ; |baud_rate_converter|Add0~82          ; out0             ;
+; |baud_rate_converter|Add0~83          ; |baud_rate_converter|Add0~83          ; out0             ;
+; |baud_rate_converter|Add0~84          ; |baud_rate_converter|Add0~84          ; out0             ;
+; |baud_rate_converter|Add0~85          ; |baud_rate_converter|Add0~85          ; out0             ;
+; |baud_rate_converter|Add0~86          ; |baud_rate_converter|Add0~86          ; out0             ;
+; |baud_rate_converter|Add0~87          ; |baud_rate_converter|Add0~87          ; out0             ;
+; |baud_rate_converter|Add0~88          ; |baud_rate_converter|Add0~88          ; out0             ;
+; |baud_rate_converter|Add0~89          ; |baud_rate_converter|Add0~89          ; out0             ;
+; |baud_rate_converter|Add0~90          ; |baud_rate_converter|Add0~90          ; out0             ;
+; |baud_rate_converter|Add0~91          ; |baud_rate_converter|Add0~91          ; out0             ;
+; |baud_rate_converter|Add0~92          ; |baud_rate_converter|Add0~92          ; out0             ;
+; |baud_rate_converter|Add0~93          ; |baud_rate_converter|Add0~93          ; out0             ;
+; |baud_rate_converter|Add0~94          ; |baud_rate_converter|Add0~94          ; out0             ;
+; |baud_rate_converter|Add0~95          ; |baud_rate_converter|Add0~95          ; out0             ;
+; |baud_rate_converter|Add0~96          ; |baud_rate_converter|Add0~96          ; out0             ;
+; |baud_rate_converter|Add0~97          ; |baud_rate_converter|Add0~97          ; out0             ;
+; |baud_rate_converter|Add0~98          ; |baud_rate_converter|Add0~98          ; out0             ;
+; |baud_rate_converter|Add0~99          ; |baud_rate_converter|Add0~99          ; out0             ;
+; |baud_rate_converter|Add0~100         ; |baud_rate_converter|Add0~100         ; out0             ;
+; |baud_rate_converter|Add0~101         ; |baud_rate_converter|Add0~101         ; out0             ;
+; |baud_rate_converter|Add0~102         ; |baud_rate_converter|Add0~102         ; out0             ;
+; |baud_rate_converter|Add1~20          ; |baud_rate_converter|Add1~20          ; out0             ;
+; |baud_rate_converter|Add1~21          ; |baud_rate_converter|Add1~21          ; out0             ;
+; |baud_rate_converter|Add1~22          ; |baud_rate_converter|Add1~22          ; out0             ;
+; |baud_rate_converter|Add1~23          ; |baud_rate_converter|Add1~23          ; out0             ;
+; |baud_rate_converter|Add1~24          ; |baud_rate_converter|Add1~24          ; out0             ;
+; |baud_rate_converter|Add2~80          ; |baud_rate_converter|Add2~80          ; out0             ;
+; |baud_rate_converter|Add2~81          ; |baud_rate_converter|Add2~81          ; out0             ;
+; |baud_rate_converter|Add2~82          ; |baud_rate_converter|Add2~82          ; out0             ;
+; |baud_rate_converter|Add2~83          ; |baud_rate_converter|Add2~83          ; out0             ;
+; |baud_rate_converter|Add2~84          ; |baud_rate_converter|Add2~84          ; out0             ;
+; |baud_rate_converter|Add2~85          ; |baud_rate_converter|Add2~85          ; out0             ;
+; |baud_rate_converter|Add2~86          ; |baud_rate_converter|Add2~86          ; out0             ;
+; |baud_rate_converter|Add2~87          ; |baud_rate_converter|Add2~87          ; out0             ;
+; |baud_rate_converter|Add2~88          ; |baud_rate_converter|Add2~88          ; out0             ;
+; |baud_rate_converter|Add2~89          ; |baud_rate_converter|Add2~89          ; out0             ;
+; |baud_rate_converter|Add2~90          ; |baud_rate_converter|Add2~90          ; out0             ;
+; |baud_rate_converter|Add2~91          ; |baud_rate_converter|Add2~91          ; out0             ;
+; |baud_rate_converter|Add2~92          ; |baud_rate_converter|Add2~92          ; out0             ;
+; |baud_rate_converter|Add2~93          ; |baud_rate_converter|Add2~93          ; out0             ;
+; |baud_rate_converter|Add2~94          ; |baud_rate_converter|Add2~94          ; out0             ;
+; |baud_rate_converter|Add3~20          ; |baud_rate_converter|Add3~20          ; out0             ;
+; |baud_rate_converter|Add3~21          ; |baud_rate_converter|Add3~21          ; out0             ;
+; |baud_rate_converter|Add3~22          ; |baud_rate_converter|Add3~22          ; out0             ;
+; |baud_rate_converter|Add3~23          ; |baud_rate_converter|Add3~23          ; out0             ;
+; |baud_rate_converter|Add3~24          ; |baud_rate_converter|Add3~24          ; out0             ;
+; |baud_rate_converter|Equal0~17        ; |baud_rate_converter|Equal0~17        ; out0             ;
+; |baud_rate_converter|Equal1~17        ; |baud_rate_converter|Equal1~17        ; out0             ;
+; |baud_rate_converter|Equal2~5         ; |baud_rate_converter|Equal2~5         ; out0             ;
+; |baud_rate_converter|Equal3~17        ; |baud_rate_converter|Equal3~17        ; out0             ;
+; |baud_rate_converter|Equal4~5         ; |baud_rate_converter|Equal4~5         ; out0             ;
++---------------------------------------+---------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                     ;
++-------------------------------------+-------------------------------------+------------------+
+; Node Name                           ; Output Port Name                    ; Output Port Type ;
++-------------------------------------+-------------------------------------+------------------+
+; |baud_rate_converter|Tcnt_in~0      ; |baud_rate_converter|Tcnt_in~0      ; out              ;
+; |baud_rate_converter|Tcnt_in~1      ; |baud_rate_converter|Tcnt_in~1      ; out              ;
+; |baud_rate_converter|Tcnt_in~2      ; |baud_rate_converter|Tcnt_in~2      ; out              ;
+; |baud_rate_converter|Tcnt_out~0     ; |baud_rate_converter|Tcnt_out~0     ; out              ;
+; |baud_rate_converter|Tcnt_out~1     ; |baud_rate_converter|Tcnt_out~1     ; out              ;
+; |baud_rate_converter|Tcnt_out~2     ; |baud_rate_converter|Tcnt_out~2     ; out              ;
+; |baud_rate_converter|Tcnt_out~3     ; |baud_rate_converter|Tcnt_out~3     ; out              ;
+; |baud_rate_converter|Tcnt_out~4     ; |baud_rate_converter|Tcnt_out~4     ; out              ;
+; |baud_rate_converter|Tcnt_out~5     ; |baud_rate_converter|Tcnt_out~5     ; out              ;
+; |baud_rate_converter|Tcnt_out~6     ; |baud_rate_converter|Tcnt_out~6     ; out              ;
+; |baud_rate_converter|state~3        ; |baud_rate_converter|state~3        ; out              ;
+; |baud_rate_converter|Tcnt_in~16     ; |baud_rate_converter|Tcnt_in~16     ; out              ;
+; |baud_rate_converter|Tcnt_in~17     ; |baud_rate_converter|Tcnt_in~17     ; out              ;
+; |baud_rate_converter|Tcnt_in~18     ; |baud_rate_converter|Tcnt_in~18     ; out              ;
+; |baud_rate_converter|state~8        ; |baud_rate_converter|state~8        ; out              ;
+; |baud_rate_converter|state.state_rw ; |baud_rate_converter|state.state_rw ; regout           ;
+; |baud_rate_converter|Tcnt_in~32     ; |baud_rate_converter|Tcnt_in~32     ; out              ;
+; |baud_rate_converter|Tcnt_in~33     ; |baud_rate_converter|Tcnt_in~33     ; out              ;
+; |baud_rate_converter|Tcnt_in~34     ; |baud_rate_converter|Tcnt_in~34     ; out              ;
+; |baud_rate_converter|state~10       ; |baud_rate_converter|state~10       ; out              ;
+; |baud_rate_converter|state~13       ; |baud_rate_converter|state~13       ; out              ;
+; |baud_rate_converter|Tcnt_out~16    ; |baud_rate_converter|Tcnt_out~16    ; out              ;
+; |baud_rate_converter|Tcnt_out~17    ; |baud_rate_converter|Tcnt_out~17    ; out              ;
+; |baud_rate_converter|Tcnt_out~18    ; |baud_rate_converter|Tcnt_out~18    ; out              ;
+; |baud_rate_converter|Tcnt_out~19    ; |baud_rate_converter|Tcnt_out~19    ; out              ;
+; |baud_rate_converter|Tcnt_out~20    ; |baud_rate_converter|Tcnt_out~20    ; out              ;
+; |baud_rate_converter|Tcnt_out~21    ; |baud_rate_converter|Tcnt_out~21    ; out              ;
+; |baud_rate_converter|Tcnt_out~22    ; |baud_rate_converter|Tcnt_out~22    ; out              ;
+; |baud_rate_converter|state~18       ; |baud_rate_converter|state~18       ; out              ;
+; |baud_rate_converter|Tcnt_out[9]    ; |baud_rate_converter|Tcnt_out[9]    ; regout           ;
+; |baud_rate_converter|Tcnt_out[10]   ; |baud_rate_converter|Tcnt_out[10]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[11]   ; |baud_rate_converter|Tcnt_out[11]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[12]   ; |baud_rate_converter|Tcnt_out[12]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[13]   ; |baud_rate_converter|Tcnt_out[13]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[14]   ; |baud_rate_converter|Tcnt_out[14]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[15]   ; |baud_rate_converter|Tcnt_out[15]   ; regout           ;
+; |baud_rate_converter|Tcnt_in[13]    ; |baud_rate_converter|Tcnt_in[13]    ; regout           ;
+; |baud_rate_converter|Tcnt_in[14]    ; |baud_rate_converter|Tcnt_in[14]    ; regout           ;
+; |baud_rate_converter|Tcnt_in[15]    ; |baud_rate_converter|Tcnt_in[15]    ; regout           ;
+; |baud_rate_converter|Selector1~5    ; |baud_rate_converter|Selector1~5    ; out0             ;
+; |baud_rate_converter|Selector1~6    ; |baud_rate_converter|Selector1~6    ; out0             ;
+; |baud_rate_converter|Selector1~7    ; |baud_rate_converter|Selector1~7    ; out0             ;
+; |baud_rate_converter|Selector1~8    ; |baud_rate_converter|Selector1~8    ; out0             ;
+; |baud_rate_converter|Selector1~9    ; |baud_rate_converter|Selector1~9    ; out0             ;
+; |baud_rate_converter|Selector2~5    ; |baud_rate_converter|Selector2~5    ; out0             ;
+; |baud_rate_converter|Selector2~6    ; |baud_rate_converter|Selector2~6    ; out0             ;
+; |baud_rate_converter|Selector2~7    ; |baud_rate_converter|Selector2~7    ; out0             ;
+; |baud_rate_converter|Selector2~8    ; |baud_rate_converter|Selector2~8    ; out0             ;
+; |baud_rate_converter|Selector2~9    ; |baud_rate_converter|Selector2~9    ; out0             ;
+; |baud_rate_converter|Selector3~5    ; |baud_rate_converter|Selector3~5    ; out0             ;
+; |baud_rate_converter|Selector3~6    ; |baud_rate_converter|Selector3~6    ; out0             ;
+; |baud_rate_converter|Selector3~7    ; |baud_rate_converter|Selector3~7    ; out0             ;
+; |baud_rate_converter|Selector3~8    ; |baud_rate_converter|Selector3~8    ; out0             ;
+; |baud_rate_converter|Selector3~9    ; |baud_rate_converter|Selector3~9    ; out0             ;
+; |baud_rate_converter|Selector4~6    ; |baud_rate_converter|Selector4~6    ; out0             ;
+; |baud_rate_converter|Selector4~9    ; |baud_rate_converter|Selector4~9    ; out0             ;
+; |baud_rate_converter|Selector5~6    ; |baud_rate_converter|Selector5~6    ; out0             ;
+; |baud_rate_converter|Selector5~8    ; |baud_rate_converter|Selector5~8    ; out0             ;
+; |baud_rate_converter|Selector5~9    ; |baud_rate_converter|Selector5~9    ; out0             ;
+; |baud_rate_converter|Selector6~6    ; |baud_rate_converter|Selector6~6    ; out0             ;
+; |baud_rate_converter|Selector6~9    ; |baud_rate_converter|Selector6~9    ; out0             ;
+; |baud_rate_converter|Selector7~6    ; |baud_rate_converter|Selector7~6    ; out0             ;
+; |baud_rate_converter|Selector7~8    ; |baud_rate_converter|Selector7~8    ; out0             ;
+; |baud_rate_converter|Selector7~9    ; |baud_rate_converter|Selector7~9    ; out0             ;
+; |baud_rate_converter|Selector8~6    ; |baud_rate_converter|Selector8~6    ; out0             ;
+; |baud_rate_converter|Selector8~8    ; |baud_rate_converter|Selector8~8    ; out0             ;
+; |baud_rate_converter|Selector8~9    ; |baud_rate_converter|Selector8~9    ; out0             ;
+; |baud_rate_converter|Selector9~6    ; |baud_rate_converter|Selector9~6    ; out0             ;
+; |baud_rate_converter|Selector9~8    ; |baud_rate_converter|Selector9~8    ; out0             ;
+; |baud_rate_converter|Selector9~9    ; |baud_rate_converter|Selector9~9    ; out0             ;
+; |baud_rate_converter|Selector10~6   ; |baud_rate_converter|Selector10~6   ; out0             ;
+; |baud_rate_converter|Selector10~9   ; |baud_rate_converter|Selector10~9   ; out0             ;
+; |baud_rate_converter|Selector11~6   ; |baud_rate_converter|Selector11~6   ; out0             ;
+; |baud_rate_converter|Selector11~9   ; |baud_rate_converter|Selector11~9   ; out0             ;
+; |baud_rate_converter|Selector12~6   ; |baud_rate_converter|Selector12~6   ; out0             ;
+; |baud_rate_converter|Selector12~9   ; |baud_rate_converter|Selector12~9   ; out0             ;
+; |baud_rate_converter|Selector13~6   ; |baud_rate_converter|Selector13~6   ; out0             ;
+; |baud_rate_converter|Selector13~9   ; |baud_rate_converter|Selector13~9   ; out0             ;
+; |baud_rate_converter|Selector14~6   ; |baud_rate_converter|Selector14~6   ; out0             ;
+; |baud_rate_converter|Selector14~9   ; |baud_rate_converter|Selector14~9   ; out0             ;
+; |baud_rate_converter|Selector15~6   ; |baud_rate_converter|Selector15~6   ; out0             ;
+; |baud_rate_converter|Selector15~9   ; |baud_rate_converter|Selector15~9   ; out0             ;
+; |baud_rate_converter|Selector17~3   ; |baud_rate_converter|Selector17~3   ; out              ;
+; |baud_rate_converter|Selector17~4   ; |baud_rate_converter|Selector17~4   ; out              ;
+; |baud_rate_converter|Selector18~3   ; |baud_rate_converter|Selector18~3   ; out              ;
+; |baud_rate_converter|Selector18~4   ; |baud_rate_converter|Selector18~4   ; out              ;
+; |baud_rate_converter|Selector19~3   ; |baud_rate_converter|Selector19~3   ; out              ;
+; |baud_rate_converter|Selector19~4   ; |baud_rate_converter|Selector19~4   ; out              ;
+; |baud_rate_converter|Selector20~3   ; |baud_rate_converter|Selector20~3   ; out              ;
+; |baud_rate_converter|Selector20~4   ; |baud_rate_converter|Selector20~4   ; out              ;
+; |baud_rate_converter|Selector21~3   ; |baud_rate_converter|Selector21~3   ; out              ;
+; |baud_rate_converter|Selector21~4   ; |baud_rate_converter|Selector21~4   ; out              ;
+; |baud_rate_converter|Selector22~3   ; |baud_rate_converter|Selector22~3   ; out              ;
+; |baud_rate_converter|Selector22~4   ; |baud_rate_converter|Selector22~4   ; out              ;
+; |baud_rate_converter|Selector23~3   ; |baud_rate_converter|Selector23~3   ; out              ;
+; |baud_rate_converter|Selector23~4   ; |baud_rate_converter|Selector23~4   ; out              ;
+; |baud_rate_converter|Selector41~8   ; |baud_rate_converter|Selector41~8   ; out0             ;
+; |baud_rate_converter|Selector42~8   ; |baud_rate_converter|Selector42~8   ; out0             ;
+; |baud_rate_converter|Selector43~8   ; |baud_rate_converter|Selector43~8   ; out0             ;
+; |baud_rate_converter|Selector44~8   ; |baud_rate_converter|Selector44~8   ; out0             ;
+; |baud_rate_converter|Selector45~8   ; |baud_rate_converter|Selector45~8   ; out0             ;
+; |baud_rate_converter|Selector46~8   ; |baud_rate_converter|Selector46~8   ; out0             ;
+; |baud_rate_converter|Selector47~8   ; |baud_rate_converter|Selector47~8   ; out0             ;
+; |baud_rate_converter|Selector48~8   ; |baud_rate_converter|Selector48~8   ; out0             ;
+; |baud_rate_converter|Selector49~8   ; |baud_rate_converter|Selector49~8   ; out0             ;
+; |baud_rate_converter|Selector52~7   ; |baud_rate_converter|Selector52~7   ; out0             ;
+; |baud_rate_converter|Selector52~8   ; |baud_rate_converter|Selector52~8   ; out0             ;
+; |baud_rate_converter|Selector53~7   ; |baud_rate_converter|Selector53~7   ; out0             ;
+; |baud_rate_converter|Selector53~10  ; |baud_rate_converter|Selector53~10  ; out0             ;
+; |baud_rate_converter|Selector54~6   ; |baud_rate_converter|Selector54~6   ; out0             ;
+; |baud_rate_converter|Selector54~7   ; |baud_rate_converter|Selector54~7   ; out0             ;
+; |baud_rate_converter|Selector54~8   ; |baud_rate_converter|Selector54~8   ; out0             ;
+; |baud_rate_converter|Selector54~9   ; |baud_rate_converter|Selector54~9   ; out0             ;
+; |baud_rate_converter|Selector54~10  ; |baud_rate_converter|Selector54~10  ; out0             ;
+; |baud_rate_converter|Selector55~9   ; |baud_rate_converter|Selector55~9   ; out0             ;
+; |baud_rate_converter|Add0~103       ; |baud_rate_converter|Add0~103       ; out0             ;
+; |baud_rate_converter|Add0~104       ; |baud_rate_converter|Add0~104       ; out0             ;
+; |baud_rate_converter|Add0~105       ; |baud_rate_converter|Add0~105       ; out0             ;
+; |baud_rate_converter|Add0~106       ; |baud_rate_converter|Add0~106       ; out0             ;
+; |baud_rate_converter|Add0~107       ; |baud_rate_converter|Add0~107       ; out0             ;
+; |baud_rate_converter|Add0~108       ; |baud_rate_converter|Add0~108       ; out0             ;
+; |baud_rate_converter|Add2~95        ; |baud_rate_converter|Add2~95        ; out0             ;
+; |baud_rate_converter|Add2~96        ; |baud_rate_converter|Add2~96        ; out0             ;
+; |baud_rate_converter|Add2~97        ; |baud_rate_converter|Add2~97        ; out0             ;
+; |baud_rate_converter|Add2~98        ; |baud_rate_converter|Add2~98        ; out0             ;
+; |baud_rate_converter|Add2~99        ; |baud_rate_converter|Add2~99        ; out0             ;
+; |baud_rate_converter|Add2~100       ; |baud_rate_converter|Add2~100       ; out0             ;
+; |baud_rate_converter|Add2~101       ; |baud_rate_converter|Add2~101       ; out0             ;
+; |baud_rate_converter|Add2~102       ; |baud_rate_converter|Add2~102       ; out0             ;
+; |baud_rate_converter|Add2~103       ; |baud_rate_converter|Add2~103       ; out0             ;
+; |baud_rate_converter|Add2~104       ; |baud_rate_converter|Add2~104       ; out0             ;
+; |baud_rate_converter|Add2~105       ; |baud_rate_converter|Add2~105       ; out0             ;
+; |baud_rate_converter|Add2~106       ; |baud_rate_converter|Add2~106       ; out0             ;
+; |baud_rate_converter|Add2~107       ; |baud_rate_converter|Add2~107       ; out0             ;
+; |baud_rate_converter|Add2~108       ; |baud_rate_converter|Add2~108       ; out0             ;
++-------------------------------------+-------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                     ;
++-------------------------------------+-------------------------------------+------------------+
+; Node Name                           ; Output Port Name                    ; Output Port Type ;
++-------------------------------------+-------------------------------------+------------------+
+; |baud_rate_converter|Tcnt_in~0      ; |baud_rate_converter|Tcnt_in~0      ; out              ;
+; |baud_rate_converter|Tcnt_in~1      ; |baud_rate_converter|Tcnt_in~1      ; out              ;
+; |baud_rate_converter|Tcnt_in~2      ; |baud_rate_converter|Tcnt_in~2      ; out              ;
+; |baud_rate_converter|Tcnt_out~0     ; |baud_rate_converter|Tcnt_out~0     ; out              ;
+; |baud_rate_converter|Tcnt_out~1     ; |baud_rate_converter|Tcnt_out~1     ; out              ;
+; |baud_rate_converter|Tcnt_out~2     ; |baud_rate_converter|Tcnt_out~2     ; out              ;
+; |baud_rate_converter|Tcnt_out~3     ; |baud_rate_converter|Tcnt_out~3     ; out              ;
+; |baud_rate_converter|Tcnt_out~4     ; |baud_rate_converter|Tcnt_out~4     ; out              ;
+; |baud_rate_converter|Tcnt_out~5     ; |baud_rate_converter|Tcnt_out~5     ; out              ;
+; |baud_rate_converter|Tcnt_out~6     ; |baud_rate_converter|Tcnt_out~6     ; out              ;
+; |baud_rate_converter|state~3        ; |baud_rate_converter|state~3        ; out              ;
+; |baud_rate_converter|Tcnt_in~16     ; |baud_rate_converter|Tcnt_in~16     ; out              ;
+; |baud_rate_converter|Tcnt_in~17     ; |baud_rate_converter|Tcnt_in~17     ; out              ;
+; |baud_rate_converter|Tcnt_in~18     ; |baud_rate_converter|Tcnt_in~18     ; out              ;
+; |baud_rate_converter|state~8        ; |baud_rate_converter|state~8        ; out              ;
+; |baud_rate_converter|state.state_rw ; |baud_rate_converter|state.state_rw ; regout           ;
+; |baud_rate_converter|Tcnt_in~32     ; |baud_rate_converter|Tcnt_in~32     ; out              ;
+; |baud_rate_converter|Tcnt_in~33     ; |baud_rate_converter|Tcnt_in~33     ; out              ;
+; |baud_rate_converter|Tcnt_in~34     ; |baud_rate_converter|Tcnt_in~34     ; out              ;
+; |baud_rate_converter|state~13       ; |baud_rate_converter|state~13       ; out              ;
+; |baud_rate_converter|Tcnt_out~16    ; |baud_rate_converter|Tcnt_out~16    ; out              ;
+; |baud_rate_converter|Tcnt_out~17    ; |baud_rate_converter|Tcnt_out~17    ; out              ;
+; |baud_rate_converter|Tcnt_out~18    ; |baud_rate_converter|Tcnt_out~18    ; out              ;
+; |baud_rate_converter|Tcnt_out~19    ; |baud_rate_converter|Tcnt_out~19    ; out              ;
+; |baud_rate_converter|Tcnt_out~20    ; |baud_rate_converter|Tcnt_out~20    ; out              ;
+; |baud_rate_converter|Tcnt_out~21    ; |baud_rate_converter|Tcnt_out~21    ; out              ;
+; |baud_rate_converter|Tcnt_out~22    ; |baud_rate_converter|Tcnt_out~22    ; out              ;
+; |baud_rate_converter|state~18       ; |baud_rate_converter|state~18       ; out              ;
+; |baud_rate_converter|Tcnt_out[9]    ; |baud_rate_converter|Tcnt_out[9]    ; regout           ;
+; |baud_rate_converter|Tcnt_out[10]   ; |baud_rate_converter|Tcnt_out[10]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[11]   ; |baud_rate_converter|Tcnt_out[11]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[12]   ; |baud_rate_converter|Tcnt_out[12]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[13]   ; |baud_rate_converter|Tcnt_out[13]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[14]   ; |baud_rate_converter|Tcnt_out[14]   ; regout           ;
+; |baud_rate_converter|Tcnt_out[15]   ; |baud_rate_converter|Tcnt_out[15]   ; regout           ;
+; |baud_rate_converter|Tcnt_in[13]    ; |baud_rate_converter|Tcnt_in[13]    ; regout           ;
+; |baud_rate_converter|Tcnt_in[14]    ; |baud_rate_converter|Tcnt_in[14]    ; regout           ;
+; |baud_rate_converter|Tcnt_in[15]    ; |baud_rate_converter|Tcnt_in[15]    ; regout           ;
+; |baud_rate_converter|Selector1~5    ; |baud_rate_converter|Selector1~5    ; out0             ;
+; |baud_rate_converter|Selector1~6    ; |baud_rate_converter|Selector1~6    ; out0             ;
+; |baud_rate_converter|Selector1~7    ; |baud_rate_converter|Selector1~7    ; out0             ;
+; |baud_rate_converter|Selector1~8    ; |baud_rate_converter|Selector1~8    ; out0             ;
+; |baud_rate_converter|Selector1~9    ; |baud_rate_converter|Selector1~9    ; out0             ;
+; |baud_rate_converter|Selector2~5    ; |baud_rate_converter|Selector2~5    ; out0             ;
+; |baud_rate_converter|Selector2~6    ; |baud_rate_converter|Selector2~6    ; out0             ;
+; |baud_rate_converter|Selector2~7    ; |baud_rate_converter|Selector2~7    ; out0             ;
+; |baud_rate_converter|Selector2~8    ; |baud_rate_converter|Selector2~8    ; out0             ;
+; |baud_rate_converter|Selector2~9    ; |baud_rate_converter|Selector2~9    ; out0             ;
+; |baud_rate_converter|Selector3~5    ; |baud_rate_converter|Selector3~5    ; out0             ;
+; |baud_rate_converter|Selector3~6    ; |baud_rate_converter|Selector3~6    ; out0             ;
+; |baud_rate_converter|Selector3~7    ; |baud_rate_converter|Selector3~7    ; out0             ;
+; |baud_rate_converter|Selector3~8    ; |baud_rate_converter|Selector3~8    ; out0             ;
+; |baud_rate_converter|Selector3~9    ; |baud_rate_converter|Selector3~9    ; out0             ;
+; |baud_rate_converter|Selector4~6    ; |baud_rate_converter|Selector4~6    ; out0             ;
+; |baud_rate_converter|Selector4~9    ; |baud_rate_converter|Selector4~9    ; out0             ;
+; |baud_rate_converter|Selector5~6    ; |baud_rate_converter|Selector5~6    ; out0             ;
+; |baud_rate_converter|Selector5~8    ; |baud_rate_converter|Selector5~8    ; out0             ;
+; |baud_rate_converter|Selector5~9    ; |baud_rate_converter|Selector5~9    ; out0             ;
+; |baud_rate_converter|Selector6~6    ; |baud_rate_converter|Selector6~6    ; out0             ;
+; |baud_rate_converter|Selector6~9    ; |baud_rate_converter|Selector6~9    ; out0             ;
+; |baud_rate_converter|Selector7~6    ; |baud_rate_converter|Selector7~6    ; out0             ;
+; |baud_rate_converter|Selector7~8    ; |baud_rate_converter|Selector7~8    ; out0             ;
+; |baud_rate_converter|Selector7~9    ; |baud_rate_converter|Selector7~9    ; out0             ;
+; |baud_rate_converter|Selector8~6    ; |baud_rate_converter|Selector8~6    ; out0             ;
+; |baud_rate_converter|Selector8~8    ; |baud_rate_converter|Selector8~8    ; out0             ;
+; |baud_rate_converter|Selector8~9    ; |baud_rate_converter|Selector8~9    ; out0             ;
+; |baud_rate_converter|Selector9~6    ; |baud_rate_converter|Selector9~6    ; out0             ;
+; |baud_rate_converter|Selector9~8    ; |baud_rate_converter|Selector9~8    ; out0             ;
+; |baud_rate_converter|Selector9~9    ; |baud_rate_converter|Selector9~9    ; out0             ;
+; |baud_rate_converter|Selector10~6   ; |baud_rate_converter|Selector10~6   ; out0             ;
+; |baud_rate_converter|Selector10~9   ; |baud_rate_converter|Selector10~9   ; out0             ;
+; |baud_rate_converter|Selector11~6   ; |baud_rate_converter|Selector11~6   ; out0             ;
+; |baud_rate_converter|Selector11~9   ; |baud_rate_converter|Selector11~9   ; out0             ;
+; |baud_rate_converter|Selector12~6   ; |baud_rate_converter|Selector12~6   ; out0             ;
+; |baud_rate_converter|Selector12~9   ; |baud_rate_converter|Selector12~9   ; out0             ;
+; |baud_rate_converter|Selector13~6   ; |baud_rate_converter|Selector13~6   ; out0             ;
+; |baud_rate_converter|Selector13~9   ; |baud_rate_converter|Selector13~9   ; out0             ;
+; |baud_rate_converter|Selector14~6   ; |baud_rate_converter|Selector14~6   ; out0             ;
+; |baud_rate_converter|Selector14~9   ; |baud_rate_converter|Selector14~9   ; out0             ;
+; |baud_rate_converter|Selector15~6   ; |baud_rate_converter|Selector15~6   ; out0             ;
+; |baud_rate_converter|Selector15~9   ; |baud_rate_converter|Selector15~9   ; out0             ;
+; |baud_rate_converter|Selector17~3   ; |baud_rate_converter|Selector17~3   ; out              ;
+; |baud_rate_converter|Selector17~4   ; |baud_rate_converter|Selector17~4   ; out              ;
+; |baud_rate_converter|Selector18~3   ; |baud_rate_converter|Selector18~3   ; out              ;
+; |baud_rate_converter|Selector18~4   ; |baud_rate_converter|Selector18~4   ; out              ;
+; |baud_rate_converter|Selector19~3   ; |baud_rate_converter|Selector19~3   ; out              ;
+; |baud_rate_converter|Selector19~4   ; |baud_rate_converter|Selector19~4   ; out              ;
+; |baud_rate_converter|Selector20~3   ; |baud_rate_converter|Selector20~3   ; out              ;
+; |baud_rate_converter|Selector20~4   ; |baud_rate_converter|Selector20~4   ; out              ;
+; |baud_rate_converter|Selector21~3   ; |baud_rate_converter|Selector21~3   ; out              ;
+; |baud_rate_converter|Selector21~4   ; |baud_rate_converter|Selector21~4   ; out              ;
+; |baud_rate_converter|Selector22~3   ; |baud_rate_converter|Selector22~3   ; out              ;
+; |baud_rate_converter|Selector22~4   ; |baud_rate_converter|Selector22~4   ; out              ;
+; |baud_rate_converter|Selector23~3   ; |baud_rate_converter|Selector23~3   ; out              ;
+; |baud_rate_converter|Selector23~4   ; |baud_rate_converter|Selector23~4   ; out              ;
+; |baud_rate_converter|Selector41~8   ; |baud_rate_converter|Selector41~8   ; out0             ;
+; |baud_rate_converter|Selector42~8   ; |baud_rate_converter|Selector42~8   ; out0             ;
+; |baud_rate_converter|Selector43~8   ; |baud_rate_converter|Selector43~8   ; out0             ;
+; |baud_rate_converter|Selector44~8   ; |baud_rate_converter|Selector44~8   ; out0             ;
+; |baud_rate_converter|Selector45~8   ; |baud_rate_converter|Selector45~8   ; out0             ;
+; |baud_rate_converter|Selector46~8   ; |baud_rate_converter|Selector46~8   ; out0             ;
+; |baud_rate_converter|Selector47~8   ; |baud_rate_converter|Selector47~8   ; out0             ;
+; |baud_rate_converter|Selector48~8   ; |baud_rate_converter|Selector48~8   ; out0             ;
+; |baud_rate_converter|Selector49~8   ; |baud_rate_converter|Selector49~8   ; out0             ;
+; |baud_rate_converter|Selector52~7   ; |baud_rate_converter|Selector52~7   ; out0             ;
+; |baud_rate_converter|Selector52~8   ; |baud_rate_converter|Selector52~8   ; out0             ;
+; |baud_rate_converter|Selector53~7   ; |baud_rate_converter|Selector53~7   ; out0             ;
+; |baud_rate_converter|Selector53~10  ; |baud_rate_converter|Selector53~10  ; out0             ;
+; |baud_rate_converter|Selector54~6   ; |baud_rate_converter|Selector54~6   ; out0             ;
+; |baud_rate_converter|Selector54~7   ; |baud_rate_converter|Selector54~7   ; out0             ;
+; |baud_rate_converter|Selector54~8   ; |baud_rate_converter|Selector54~8   ; out0             ;
+; |baud_rate_converter|Selector54~9   ; |baud_rate_converter|Selector54~9   ; out0             ;
+; |baud_rate_converter|Selector54~10  ; |baud_rate_converter|Selector54~10  ; out0             ;
+; |baud_rate_converter|Selector55~9   ; |baud_rate_converter|Selector55~9   ; out0             ;
+; |baud_rate_converter|Add0~103       ; |baud_rate_converter|Add0~103       ; out0             ;
+; |baud_rate_converter|Add0~104       ; |baud_rate_converter|Add0~104       ; out0             ;
+; |baud_rate_converter|Add0~105       ; |baud_rate_converter|Add0~105       ; out0             ;
+; |baud_rate_converter|Add0~106       ; |baud_rate_converter|Add0~106       ; out0             ;
+; |baud_rate_converter|Add0~107       ; |baud_rate_converter|Add0~107       ; out0             ;
+; |baud_rate_converter|Add0~108       ; |baud_rate_converter|Add0~108       ; out0             ;
+; |baud_rate_converter|Add2~95        ; |baud_rate_converter|Add2~95        ; out0             ;
+; |baud_rate_converter|Add2~96        ; |baud_rate_converter|Add2~96        ; out0             ;
+; |baud_rate_converter|Add2~97        ; |baud_rate_converter|Add2~97        ; out0             ;
+; |baud_rate_converter|Add2~98        ; |baud_rate_converter|Add2~98        ; out0             ;
+; |baud_rate_converter|Add2~99        ; |baud_rate_converter|Add2~99        ; out0             ;
+; |baud_rate_converter|Add2~100       ; |baud_rate_converter|Add2~100       ; out0             ;
+; |baud_rate_converter|Add2~101       ; |baud_rate_converter|Add2~101       ; out0             ;
+; |baud_rate_converter|Add2~102       ; |baud_rate_converter|Add2~102       ; out0             ;
+; |baud_rate_converter|Add2~103       ; |baud_rate_converter|Add2~103       ; out0             ;
+; |baud_rate_converter|Add2~104       ; |baud_rate_converter|Add2~104       ; out0             ;
+; |baud_rate_converter|Add2~105       ; |baud_rate_converter|Add2~105       ; out0             ;
+; |baud_rate_converter|Add2~106       ; |baud_rate_converter|Add2~106       ; out0             ;
+; |baud_rate_converter|Add2~107       ; |baud_rate_converter|Add2~107       ; out0             ;
+; |baud_rate_converter|Add2~108       ; |baud_rate_converter|Add2~108       ; out0             ;
++-------------------------------------+-------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
+    Info: Processing started: Mon Mar 04 23:47:23 2019
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off baud_rate_converter -c baud_rate_converter
+Info: Using vector source file "C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      72.39 %
+Info: Number of transitions in simulation is 1950014
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 110 megabytes
+    Info: Processing ended: Mon Mar 04 23:47:42 2019
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:16
+
+

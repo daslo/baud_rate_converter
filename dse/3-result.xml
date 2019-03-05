@@ -1,0 +1,52 @@
+
+<RESULTS project="baud_rate_converter" revname="__dse_temp_rev" isbest="0" arcname="" wasCompiled="1" name="">
+ <COPYRIGHT>Copyright (C) 2002 Altera Corporation. All rights reserved.
+                This information and code is highly confidential and proprietary
+                information and code of Altera and is being provided in accordance
+                with and subject to the protections of a non-disclosure agreement
+                which governs its use and disclosure.  Altera products and services
+                are protected under numerous U.S. and foreign patents, maskwork rights
+                copyrights and other intellectual property laws.  Altera assumes no
+                responsibility or liability arising out of the application or use
+                of this information and code. This notice must be retained and
+                reprinted on any copies of this information and code that are
+                permitted to be made.</COPYRIGHT>
+ <SETTING name="PHYSICAL_SYNTHESIS_REGISTER_RETIMING">OFF</SETTING>
+ <SETTING name="PLACEMENT_EFFORT_MULTIPLIER">1.5</SETTING>
+ <SETTING name="PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION">OFF</SETTING>
+ <SETTING name="ROUTER_TIMING_OPTIMIZATION_LEVEL">MAXIMUM</SETTING>
+ <SETTING name="PRE_MAPPING_RESYNTHESIS">OFF</SETTING>
+ <SETTING name="PHYSICAL_SYNTHESIS_COMBO_LOGIC">OFF</SETTING>
+ <SETTING name="PHYSICAL_SYNTHESIS_EFFORT">NORMAL</SETTING>
+ <SETTING name="FITTER_EFFORT">STANDARD FIT</SETTING>
+ <RESULT name="Quality of Fit">0.0</RESULT>
+ <RESULT name="Average Slack for Failing Paths">0</RESULT>
+ <RESULT name="Clock Setup: 'CLK': Actual Time">5.329 ns</RESULT>
+ <RESULT name="Elapsed Time: Analysis &amp; Synthesis">00:00:03</RESULT>
+ <RESULT name="Elapsed Time: Total">00:00:12</RESULT>
+ <RESULT name="All Failing Paths">0</RESULT>
+ <RESULT name="Worst-case th: Failed Paths">0</RESULT>
+ <RESULT name="Worst-case tsu: Slack">unknown</RESULT>
+ <RESULT name="Total Thermal Power Dissipation">unknown</RESULT>
+ <RESULT name="Elapsed Time: Assembler">00:00:02</RESULT>
+ <RESULT name="All Clock Removal Failing Paths">0</RESULT>
+ <RESULT name="Worst-case tco: Failed Paths">0</RESULT>
+ <RESULT name="All Clock Recovery Failing Paths">0</RESULT>
+ <RESULT name="All Clock Hold Failing Paths">0</RESULT>
+ <RESULT name="Worst-case Slack">unknown ns (unknown)</RESULT>
+ <RESULT name="Clock Setup: 'CLK': Failed Paths">0</RESULT>
+ <RESULT name="Total logic elements">104</RESULT>
+ <RESULT name="Elapsed Time: Classic Timing Analyzer">00:00:02</RESULT>
+ <RESULT name="Worst-case th: Actual Time">-4.697 ns</RESULT>
+ <RESULT name="Clock Setup: 'CLK': Slack">unknown</RESULT>
+ <RESULT name="All Clock Setup Failing Paths">0</RESULT>
+ <RESULT name="Clock Period: Geometric Mean">5.33 ns</RESULT>
+ <RESULT name="Worst-case tco: Actual Time">8.516 ns</RESULT>
+ <RESULT name="Total block memory bits">0</RESULT>
+ <RESULT name="Worst-case tsu: Failed Paths">0</RESULT>
+ <RESULT name="Worst-case th: Slack">unknown</RESULT>
+ <RESULT name="Elapsed Time: Fitter">00:00:05</RESULT>
+ <RESULT name="Worst-case tco: Slack">unknown</RESULT>
+ <RESULT name="Worst-case tsu: Actual Time">5.393 ns</RESULT>
+</RESULTS>
+

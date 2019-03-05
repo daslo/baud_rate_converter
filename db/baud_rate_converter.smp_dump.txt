@@ -1,0 +1,8 @@
+
+State Machine - |baud_rate_converter|state
+Name state.state_w state.state_rw state.state_r state.state_dly state.state_idle 
+state.state_idle 0 0 0 0 0 
+state.state_dly 0 0 0 1 1 
+state.state_r 0 0 1 0 1 
+state.state_rw 0 1 0 0 1 
+state.state_w 1 0 0 0 1 

@@ -1,0 +1,36 @@
+Project: baud_rate_converter
+Revision: baud_rate_converter
+Flow Start Date: Tue Mar 05 00:28:42 Środkowoeuropejski czas stand. 2019
+Flow End Date: Tue Mar 05 00:31:07 Środkowoeuropejski czas stand. 2019
+
+Detailed Results
+Point,base (Best),1,2,3,4,5,6,7
+All Clock Hold Failing Paths,0,0,0,0,0,0,0,0
+All Clock Recovery Failing Paths,0,0,0,0,0,0,0,0
+All Clock Removal Failing Paths,0,0,0,0,0,0,0,0
+All Clock Setup Failing Paths,0,0,0,0,0,0,0,0
+All Failing Paths,0,0,0,0,0,0,0,0
+Average Slack for Failing Paths,0,0,0,0,0,0,0,0
+Clock Period: Geometric Mean,7.7 ns,6.17 ns,5.16 ns,5.33 ns,6.43 ns,6.24 ns,6.85 ns,7.55 ns
+Clock Setup: 'CLK': Actual Time,7.696 ns,6.173 ns,5.161 ns,5.329 ns,6.427 ns,6.240 ns,6.850 ns,7.554 ns
+Clock Setup: 'CLK': Failed Paths,0,0,0,0,0,0,0,0
+Clock Setup: 'CLK': Slack,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Elapsed Time: Analysis & Synthesis,00:00:05,00:00:03,00:00:03,00:00:03,00:00:02,00:00:02,00:00:02,00:00:01
+Elapsed Time: Assembler,00:00:02,00:00:03,00:00:02,00:00:02,00:00:02,00:00:02,00:00:02,00:00:02
+Elapsed Time: Classic Timing Analyzer,00:00:02,00:00:00,00:00:01,00:00:02,00:00:02,00:00:02,00:00:00,00:00:01
+Elapsed Time: Fitter,00:00:05,00:00:04,00:00:07,00:00:05,00:00:03,00:00:03,00:00:03,00:00:03
+Elapsed Time: Total,00:00:14,00:00:10,00:00:13,00:00:12,00:00:09,00:00:09,00:00:07,00:00:07
+Quality of Fit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total block memory bits,0,0,0,0,0,0,0,0
+Total logic elements,102,115,117,104,102,102,102,102
+Total Thermal Power Dissipation,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Worst-case Slack,unknown ns (unknown),unknown ns (unknown),unknown ns (unknown),unknown ns (unknown),unknown ns (unknown),unknown ns (unknown),unknown ns (unknown),unknown ns (unknown)
+Worst-case tco: Actual Time,8.970 ns,9.206 ns,10.348 ns,8.516 ns,9.199 ns,9.313 ns,9.297 ns,10.180 ns
+Worst-case tco: Failed Paths,0,0,0,0,0,0,0,0
+Worst-case tco: Slack,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Worst-case th: Actual Time,-5.082 ns,-5.111 ns,-4.295 ns,-4.697 ns,-4.861 ns,-4.689 ns,-4.777 ns,-5.273 ns
+Worst-case th: Failed Paths,0,0,0,0,0,0,0,0
+Worst-case th: Slack,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Worst-case tsu: Actual Time,6.189 ns,5.385 ns,5.057 ns,5.393 ns,5.971 ns,5.531 ns,5.543 ns,5.543 ns
+Worst-case tsu: Failed Paths,0,0,0,0,0,0,0,0
+Worst-case tsu: Slack,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown

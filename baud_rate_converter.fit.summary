@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Mar 05 00:28:56 2019
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : baud_rate_converter
+Top-level Entity Name : baud_rate_converter
+Family : Cyclone II
+Device : EP2C5T144C8
+Timing Models : Final
+Total logic elements : 102 / 4,608 ( 2 % )
+    Total combinational functions : 101 / 4,608 ( 2 % )
+    Dedicated logic registers : 58 / 4,608 ( 1 % )
+Total registers : 58
+Total pins : 4 / 89 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 0 / 119,808 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

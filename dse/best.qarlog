@@ -1,0 +1,103 @@
+Quartus II Archive log --	C:/Documents and Settings/ds/Pulpit/baud_rate_converter/best.qarlog
+
+Archive:	C:/Documents and Settings/ds/Pulpit/baud_rate_converter/best.qar
+Date:		Tue Mar 05 00:29:07 2019
+Quartus II		8.1 Build 163 10/28/2008 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.asm.rpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.done
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.dpf
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.dse.rpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.fit.rpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.fit.summary
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.flow.rpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.map.rpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.map.summary
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.pin
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.pof
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.qsf
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.qws
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.sim.rpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.sof
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.tan.rpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.tan.summary
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.vhd
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/baud_rate_converter.vwf
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.(0).cnf.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.(0).cnf.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.asm.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.asm_labs.ddb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cbx.xml
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp.bpm
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp.ecobp
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp.kpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp.logdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp.rdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp.tdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp0.ddb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp2.ddb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.cmp_merge.kpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.db_info
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.eco.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.eds_overflow
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.fit.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.fnsim.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.fnsim.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.hier_info
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.hif
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map.bpm
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map.ecobp
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map.kpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map.logdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map_bb.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map_bb.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map_bb.hdbx
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.map_bb.logdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.pre_map.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.pre_map.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.psp
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.qpf
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.rtlv.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.rtlv_sg.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.rtlv_sg_swap.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.sgdiff.cdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.sgdiff.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.sim.cvwf
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.sim.hdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.sim.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.sim.rdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.simfam
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.sld_design_entry.sci
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.sld_design_entry_dsc.sci
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.smp_dump.txt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.syn_hier_info
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.tan.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/baud_rate_converter.tis_db_list.ddb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/prev_cmp_baud_rate_converter.asm.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/prev_cmp_baud_rate_converter.fit.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/prev_cmp_baud_rate_converter.map.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/prev_cmp_baud_rate_converter.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/prev_cmp_baud_rate_converter.sim.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/prev_cmp_baud_rate_converter.tan.qmsg
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/db/wed.wsf
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.cmp.atm
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.cmp.dfp
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.cmp.hdbx
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.cmp.kpt
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.cmp.logdb
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.cmp.rcf
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.map.atm
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.map.dpi
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.map.hdbx
+C:/Documents and Settings/ds/Pulpit/baud_rate_converter/incremental_db/compiled_partitions/baud_rate_converter.root_partition.map.kpt
+c:/altera/81/quartus/bin/assignment_defaults.qdf
+	======= Total: 92 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
